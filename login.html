@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login</h1>
-    <form name="frm_login" id="frm_login" method="post" action="https://mail.google.com/">
-        <p>Ingresa tu correo</p>
-        <input type="email" name="txt-user" id="txt-user" maxlength="20" required>
-        <p>Ingresa tu contraseña</p>
-        <input type="password" name="txt-pass" id="txt-pass" maxlength="20" required>
-        <br>
-        <button name="btn-enviar" id="btn-enviar" value="enviar">Enviar Datos</button>
-    </form>
+    <div class="container">
+        <h1>Login</h1>
+        <form name="frm_login" id="frm_login" method="post" action="https://mail.google.com/">
+            <p>Ingresa tu correo</p>
+            <input type="email" name="txt-user" id="txt-user" maxlength="20" required>
+            <p>Ingresa tu contraseña</p>
+            <input type="password" name="txt-pass" id="txt-pass" maxlength="20" required>
+            <br>
+            <button name="btn-enviar" id="btn-enviar" value="enviar">Login</button>
+        </form>
+    </div>
 </body>
 </html>
